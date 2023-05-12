@@ -1,0 +1,37 @@
+version: "3.8"
+
+services:
+
+  backend:
+    build: ./backend
+    expose:
+      - 5000
+    ports:
+      - 5000:5000
+    environment:
+      - BACKEND_SERVER_PORT=5000
+    command: flask run --port=5000 --host=0.0.0.0
+
+
+  backend2:
+    build: ./backend
+    expose:
+      - 5001
+    ports:
+      - 5001:5001
+    command: flask run --port=5001 --host=0.0.0.0
+
+
+  backend3:
+    build: ./backend
+    expose:
+      - 5002
+    ports:
+      - 5002:5002
+    command: flask run --port=5002 --host=0.0.0.0
+
+
+  nginx:
+    build: ./nginx
+    ports:
+      - 9090:9090

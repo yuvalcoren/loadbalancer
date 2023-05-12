@@ -1,0 +1,4 @@
+redis
+Flask==2.3.2
+importlib-metadata==6.6.0
+
