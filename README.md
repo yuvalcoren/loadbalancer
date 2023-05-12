@@ -9,5 +9,5 @@
 # 1 nginx container which acts as load balancer
 
 # configured the nginx file to navigate traffic to each of these servers using the Round Robin method: Requests are distributed evenly across the servers.
-# Used docker compose to create the network between diffrent containers.
+# Used docker compose to create the network between the different containers.
 
