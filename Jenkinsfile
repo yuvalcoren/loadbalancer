@@ -14,9 +14,6 @@ tools {
             }
         }
         stage('docker down') {
-            options {
-              timeout(time: 1, unit: 'MINUTES')   // timeout on this stage
-          }
             steps {
                 sh 'docker-compose down'
             }
