@@ -5,11 +5,6 @@ tools {
 }
 
     stages {
-        stage('Fetch git'){
-            steps{
-                git branch: 'main', url: 'https://github.com/yuvalcoren/loadbalancer.git'
-            }
-        }
         stage('dockercompose') {
             steps {
                 sh 'docker-compose up -d'
