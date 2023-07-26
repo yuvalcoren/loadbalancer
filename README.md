@@ -27,8 +27,8 @@ Ensure you have the following installed:
 1. **Clone the Repository**
 
    ```bash
-   git clone [https://github.com/yuvalcoren/loadbalancer.git]
-   cd [loadbalancer]
+   git clone https://github.com/yuvalcoren/loadbalancer.git
+   cd loadbalancer
    ```
 
 2. **Build and Start the Containers**
