@@ -39,7 +39,7 @@ Ensure you have the following installed:
 
 3. **Access the Load Balancer**
 
-   Open your browser and navigate to `http://localhost:[YOUR_NGINX_PORT_HERE]`. Refresh the page multiple times to see the IP address change as the request gets directed to different backend servers.
+   Open your browser and navigate to `http://localhost:9090`. Refresh the page multiple times to see the IP address change as the request gets directed to different backend servers.
 
 ## Clean Up
 
